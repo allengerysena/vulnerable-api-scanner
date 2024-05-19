@@ -1,0 +1,327 @@
+{
+    "info": {
+        "name": "Vulnerable-API Requests",
+        "description": "Collection of requests for testing various vulnerabilities",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET hhinovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/hhinovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "hhinovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST hhivuln",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"email\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/hhivuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "hhivuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET lfinovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/lfinovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "lfinovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST lfivuln",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"filename\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/lfivuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "lfivuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET rfinovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/rfinovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "rfinovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST rfivuln",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"imagelink\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/rfivuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "rfivuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET sqlinovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/sqlinovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "sqlinovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST sqlivuln",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"password\": \"string\",\"username\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/sqlivuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "sqlivuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET sstinovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/sstinovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "sstinovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST sstivuln",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"mathexp\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/sstivuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "sstivuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET xssnovuln",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/xssnovuln",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "xssnovuln"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST xssreflected",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\": \"string\"}"
+                },
+                "url": {
+                    "raw": "http://66.66.66.66:8000/api/xssreflected",
+                    "protocol": "http",
+                    "host": [
+                        "66",
+                        "66",
+                        "66",
+                        "66"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "xssreflected"
+                    ]
+                }
+            }
+        }
+    ]
+}
